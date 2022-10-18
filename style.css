@@ -16,6 +16,32 @@ tlačítko twitter          #1da1f2
 
 
 body {
-  background-color: #bdc3c7;
+  background-color: #31363b;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 1,5;
+}
+
+h1{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.hlavicka {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+   
+}
+.foto{
+  width: 100%;
+  margin: 0;
+}
+
+.logo{
+  position: ;
 }
 
