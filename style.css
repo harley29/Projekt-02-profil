@@ -27,21 +27,99 @@ h1{
   font-family: 'Roboto Mono', monospace;
 }
 
-.hlavicka {
+.Hlavicka{
     margin: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     width: 100%;
+    height: 30%;
+    position: absolut;
    
 }
+
 .foto{
   width: 100%;
   margin: 0;
 }
 
 .logo{
-  position: ;
+  position: relative;
+  left: 95%;
+  top:-20px;
+  border: solid  #b92e81; 
+  background-color: #b92e81;
+  border-radius: 50%;
+ 
+  
+}
+
+
+.kontejner {
+  display: flex;
+  border: solid 2px #3f464d;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.odkazy li{
+  display: inline-block;
+
+}
+
+.odkazy a{
+  color: white;
+  font-family:'Roboto Mono', monospace; 
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 30px;
+
+
+}
+.odkazy a:hover, 
+.odkazy a:focus,
+.odkazy a:active
+ 
+
+
+.portfolio{
+ 
+  flex-grow: 1;
+  align-self: flex-start;
+  flex-basis: 100%;
+  order: 1;
+  text-align: center;
+ 
+
+}
+.portfolio:hover{
+background-color:#e74c3c ; 
+border: solid 2px #3f464d;
+
+
+}
+.facebook{
+ 
+  flex-grow: 2;
+  flex-basis: 50%;
+  order: 2;
+}
+
+.facebook:hover{
+  background-color:#3b5998 ;
+  border: solid 2px #3f464d;
+}
+
+.twitter{
+  
+  flex-grow: 2;
+  order: 3;
+  flex-basis: 50%;
+}
+.twitter:hover{
+  background-color:  #1da1f2;
+  border: solid 2px #3f464d;
 }
 
