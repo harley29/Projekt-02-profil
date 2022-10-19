@@ -120,6 +120,7 @@ border: solid 2px #3f464d;
   border: solid 2px #3f464d;
   flex-basis: 50%;
   order: 2;
+  text-align: center;
 }
 
 .facebook:hover{
@@ -131,6 +132,7 @@ border: solid 2px #3f464d;
   flex-basis: 50%;
   order: 3;
   border: solid 2px #3f464d;
+  text-align: center;
   
 }
 .twitter:hover{
