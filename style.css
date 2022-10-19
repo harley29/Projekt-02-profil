@@ -16,12 +16,17 @@ tlačítko twitter          #1da1f2
 
 
 body {
-  background-color: #31363b;
+  
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   line-height: 1,5;
+  background-color:  #bdc3c7;
+  
+
 }
+
+
 
 h1{
   font-family: 'Roboto Mono', monospace;
@@ -63,6 +68,7 @@ h1{
   padding: 0;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #31363b;
 
  
   
@@ -80,6 +86,8 @@ h1{
   display: inline-block;
   padding: 20px;
   margin: 20px;
+  background-color: #31363b;
+
 
 
 }
@@ -87,6 +95,7 @@ h1{
 .odkazy a:focus,
 .odkazy a:active{
   border: solid 2px #3f464d;
+  
 }
  
 
@@ -130,6 +139,8 @@ border: solid 2px #3f464d;
 }
 
 .obsah{
-  margin-left: 5%;
-  margin-right: 5% ;
+  margin-left: 0;
+  margin-right:0 ;
+  padding: 0;
+  background-color: #31363b;
 }
